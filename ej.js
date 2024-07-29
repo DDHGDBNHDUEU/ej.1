@@ -16,7 +16,26 @@ function zetaDieta(C, P, G) {
     return calorias;
 }
 
-const C = 88;
-const P = 90;
-const G = 50;
-console.log(zetaDieta(C, P, G)); 
+// Subtarea 1
+console.log(zetaDieta(0, 0, 1000)); 
+
+// Subtarea 2
+console.log(zetaDieta(0, 0, 0)); 
+
+// Subtarea 3
+console.log(zetaDieta(0, 1000, 0));
+
+// Subtarea 4
+console.log(zetaDieta(0, 1, 0));
+
+// Subtarea 5
+console.log(zetaDieta(1000, 0, 0)); 
+
+// Subtarea 6
+console.log(zetaDieta(1, 0, 0));
+ 
+// Subtarea 7
+console.log(zetaDieta(1000, 1000, 1000)); 
+
+// Subtarea 8
+console.log(zetaDieta(88, 90, 50));
